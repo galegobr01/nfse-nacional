@@ -11,9 +11,6 @@
     "psr-4": {
       "Hadder\\NfseNacional\\": "src/"
     },
-    "files": [
-      "Helpers.php"
-    ]
   },
   "authors": [
     {
