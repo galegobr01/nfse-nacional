@@ -1,6 +1,6 @@
 <?php
 
-namespace Hadder\NfseNacional;
+namespace GalegoBR01\NfseNacional;
 
 /**
  * Class for RPS construction and validation of data
