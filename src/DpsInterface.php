@@ -1,6 +1,6 @@
 <?php
 
-namespace Hadder\NfseNacional;
+namespace GalegoBR01\NfseNacional;
 
 interface DpsInterface
 {
