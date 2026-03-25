@@ -1,5 +1,5 @@
 {
-  "name": "hadder/nfse-nacional",
+  "name": "galegobr01/nfse-nacional",
   "description": "Pacote para geração de NFSe Nacional usando componentes NFePHP (https://github.com/nfephp-org)",
   "keywords": [
     "nfse-nacional",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Hadder\\NfseNacional\\": "src/"
+      "GalegoBR01\\NfseNacional\\": "src/"
     }
   },
   "authors": [
