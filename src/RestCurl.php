@@ -229,7 +229,6 @@ class RestCurl extends RestBase
             }
             $headsize = curl_getinfo($oCurl, CURLINFO_HEADER_SIZE);
             $httpcode = curl_getinfo($oCurl, CURLINFO_HTTP_CODE);
-            curl_close($oCurl);
             $this->responseHead = trim(substr((string)$response, 0, $headsize));
             $this->responseBody = trim(substr((string)$response, $headsize));
             return json_decode($this->responseBody, true);
